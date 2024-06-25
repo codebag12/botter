@@ -1,0 +1,66 @@
+.subscription-container {
+    background-color: #2c2f3f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .plan-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .plan {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .plan.popular {
+    border: 2px solid #ff9800;
+  }
+  
+  .plan h2 {
+    margin: 0;
+  }
+  
+  .plan p {
+    margin: 10px 0 0;
+  }
+  
+  .plan span {
+    display: block;
+    margin-top: 10px;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 4px;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  
